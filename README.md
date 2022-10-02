@@ -43,7 +43,7 @@ All of this has been done through a web app called RoomFindr where users can fin
 .
 └── src
     ├── common
-    ├── services (various components that help us with auth. for example)
+    ├── services (various components that help us for example w. auth.)
     └── views (the webpages that will be seen from the client)
 ```
 
@@ -54,11 +54,15 @@ The following section will provide some screenshots of the clientside of the app
 
 #### Home:
 
+![Screenshot 2022-10-02 152934](https://user-images.githubusercontent.com/44942059/193457503-78c9cc0f-e788-47af-92e3-1212c6af265f.png)
 
 #### Adding a new post:
 
+![Screenshot 2022-10-02 153042](https://user-images.githubusercontent.com/44942059/193457533-ab11f1a2-eff0-4bd1-9c13-b6edc3b030a1.png)
 
 #### Login:
+
+![Screenshot 2022-10-02 153013](https://user-images.githubusercontent.com/44942059/193457551-3c5836a3-4b3a-4776-a8c3-9af9e1f5001b.png)
 
 ## Installation
 
