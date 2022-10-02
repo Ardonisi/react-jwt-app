@@ -15,13 +15,19 @@ All of this has been done through a web app called RoomFindr where users can fin
 - Modern UI
 - Cross platform
 
-#### Future features:
+#### Future client-side features:
 
 - Registered users will be able to review and comment a post.
 - Dark Mode
 - Users will have a profile page where they will see their reservations or their properties that are beeing rented.
 - ...
+#### Future code improvement:
+- A better orginanization of files/folders and adding the necessary middelwares 
+- Faster loading time of images in the Home section
+
 ## Stack
+
+
 
 #### Front-end
 
@@ -37,6 +43,7 @@ All of this has been done through a web app called RoomFindr where users can fin
 - SQL
 
 
+
 ## Front-end file structure
 
 ```javascript
@@ -46,6 +53,7 @@ All of this has been done through a web app called RoomFindr where users can fin
     ├── services (various components that help us for example w. auth.)
     └── views (the webpages that will be seen from the client)
 ```
+
 
 
 ## Demo
