@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+:root {
+  --font-family: 'Manrope', sans-serif;
+
+  --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+  --gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+  
+  --color-bg: #f9f9fc
+  ;
+  --color-footer : #031B34;
+  --color-blog: #042c54;
+  --color-text-rf-2: #f72585;
+  --color-subtext: #FF8A71;
+  --color-rf: #7209b7;
+  --color-btn-rf: #f72585
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body {
+    background: var(--color-bg) !important;
+    color: white 
+}
+.bg-rf{
+  background-color: var(--color-rf) !important;
+}
+.btn-rf-2 {
+  background-color: var(--color-btn-rf)!important;
+  border: none !important;
+}
+
+.btn-rf-2:hover {
+  background-color:#c51d6a !important;
+}
+
+.card-hover :hover {
+  background-color:#e0d4de !important;
+    transition: .4s;
+
+  }
+.img-thumb-rf {
+  object-fit: cover;
+  object-position: center; 
+  width: 100%;
+ 
+}
+
+.img-blur{
+  backdrop-filter: blur(8px) !important;
+
+}
+.link-rf{
+  text-decoration: none !important;
+  color: black !important;
+  
+}
+
+.card-img, .card-img-top, .card-img-bottom  {
+
+  height: 200px !important;
+}
+.random:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;}
